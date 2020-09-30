@@ -1,0 +1,44 @@
+npx create-react-app  --- crateting a react app . cd frontend
+npm start - to run the app in browser
+package.json file contains the foloowing
+dependencies
+npm scripts -- start ,build,test,eject
+
+react is a single page based framework , browser initially reads index.html file
+index.html contains a div with the id "root"
+index.js contains the app compponent , and the render method puts it into the root element
+change title and metadata of the index.html file
+change the favicon
+delete app.css
+delete app.tests.js
+delete logo.svg
+delete setuptests.js
+
+these days its common to use functional components with hooks, there are also class based components
+JSX - we can have html css and javascript togather 
+the return has to be a single element (div or fragment)
+
+USE GIT AS VERSION CONTROL SO THAT WE CAN TRACK THE PROGRESS
+
+git commands 
+-------------
+ls  = will list all the folder contents
+rm -rf .git  = to remove the git repository
+git init = initialize empty git repository
+git add. = add everything to the repository
+git status =  we can list everything that is in the staging area
+
+
+.gitignore file allows you to describe the files that u dont want to push to the repository
+add .env to gitignore , because it can contain sensitive information like paypal key or mongoose
+
+
+terminal commmands
+--------------------
+cd.. = to go back in directory
+
+
+
+
+
+

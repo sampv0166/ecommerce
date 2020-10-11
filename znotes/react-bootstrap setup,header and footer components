@@ -1,0 +1,18 @@
+create components folder
+create new component header.js and footer.js and import them to app.js file
+got to bootswatch.com and select and download a theme
+add that file to into the srd folder
+import that file to index.js 
+npm i react-bootstrap = install react bootstrap ui library 
+use container to center the main body
+import row,col from reactbootstrap
+create a row and column and center the footer 
+
+add bavbar from react-bootstrap and customize it .
+
+go to cdnjs.com
+copy linktag for fontawsome and add it to index.html file
+
+
+
+& copy for copyright sign 

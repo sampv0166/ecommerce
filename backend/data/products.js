@@ -1,0 +1,48 @@
+const products = [
+  {
+    name: "abcd",
+    image: "/images/1021-1.jpg",
+    description: "abcd",
+    brand: "abcd",
+    category: "abcd",
+    price: 89.99,
+    countInStock: 5,
+    rating: 4.5,
+    numReviews: 4,
+  },
+  {
+    name: "cvfd",
+    image: "/images/1490-1.jpg",
+    description: "cvfd",
+    brand: "cvfd",
+    category: "cvfd",
+    price: 89.99,
+    countInStock: 3,
+    rating: 5,
+    numReviews: 4,
+  },
+  {
+    name: "qweqweqweqweqwesdfsdgwdasdad",
+    image: "/images/1953-1.jpg",
+    description: "qweqweqweqweqwesdfsdgwdasdad",
+    brand: "qweqweqweqweqwesdfsdgwdasdad",
+    category: "qweqweqweqweqwesdfsdgwdasdad",
+    price: 89.99,
+    countInStock: 3,
+    rating: 4.5,
+    numReviews: 4,
+  },
+  {
+    name: "vvvvvvvvvvvvvvvv",
+    image: "/images/1958-1.jpg",
+    description: "vvvvvvvvvvvvvvvv",
+    brand: "vvvvvvvvvvvvvvvv",
+    category: "vvvvvvvvvvvvvvvv",
+    price: 89.99,
+    countInStock: 3,
+    rating: 4.5,
+    numReviews: 4,
+  },
+];
+
+export default products;

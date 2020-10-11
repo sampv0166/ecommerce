@@ -1,0 +1,31 @@
+create folder backend 
+npm init = enter details which creates paackage.json on the root folder
+install express in the root folder = npm i express
+
+install nodemon and concurrently as dev dependecies in the root folder
+npm i -D nodemon concurrently
+
+nodemon is used so that we dont have to reset the server every time when we make changes in code 
+"server": "nodemon backend/server"
+
+add client script
+
+and then add dev script with concurrently 
+
+
+install dotenv 
+create new file .env and we can incluse all our environment variables in that file for example port , db credentials etc
+
+
+npm i mongoose
+
+
+create database models
+
+install bcrypt for password hashing
+
+express-asynch-handler
+
+
+
+

@@ -1,0 +1,30 @@
+Redux is for having a global state for the application
+
+the way state is changed through reducer or reducer functions 
+reducers are basically just functions that accept actions and they are responsible for manipulating and passing the state down to components.
+actions are just objects that represnts the intention to change a piece of state. 
+we also have action creators which are functions that will dispatch or fire off these actions div
+we may have an action creator called GET PRODUCTS , IN THAT , WE MAKE A FETCH REQUEST TO THE BACKEND .
+AND THEN WE DISPACTH THE ACTIONS TO THE REDUCERS AND WE ATTACH A PAYLOAD TO IT ,THAT PAYLOAD WILL HAVE THE FETCED DATA  
+IN THE REDCUER WE CAN ASSIGN THAT PAYLOAD DATA TO THE STATE AND PASS IT DOWN TO ANY COMPONENT THAT ASKS FOR IT . 
+SO THAT WE CAN HABE MULTIPLE COMPONENTS THAT ASK THE SAME PIECEOF STATE 
+
+
+npm i redux react-redux redux-thunk redux-devtools-extension
+
+
+redux-thunk allows us to make asynchronous requests to the server from action creators . 
+
+
+
+start with the constants folder and create the action name constant and export them
+go to the corresponding reducer 
+whenever we add a new reducer we need tio bring to our store.js file 
+
+next step is to creare an action to make request to the api 
+
+go to screen folder of and select the corresponding component that we want to load the data into 
+
+
+
+

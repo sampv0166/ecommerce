@@ -23,10 +23,10 @@ USE GIT AS VERSION CONTROL SO THAT WE CAN TRACK THE PROGRESS
 git commands 
 -------------
 ls  = will list all the folder contents
-rm -rf .git  = to remove the git repository
 git init = initialize empty git repository
 git add. = add everything to the repository
 git status =  we can list everything that is in the staging area
+git commit -m 'commit description' = commits all staged changes
 
 
 .gitignore file allows you to describe the files that u dont want to push to the repository

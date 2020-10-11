@@ -1,0 +1,8 @@
+install axios  = npm i axios
+
+use the useState hook for component level
+
+use the useEffect hook to make the request to backend
+useEffect runs as soon as the component loads
+use axios inside useEffect to retrive the data from backend
+add proxy 

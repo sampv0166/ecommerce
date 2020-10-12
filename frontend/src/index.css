@@ -38,8 +38,8 @@ h2 {
 .carousel img {
   height: 300px;
   padding: 30px;
-  margin: 40px;
-  border-radius: 50%;
+  margin: 40px 450px;
+  border-radius: 30%;
 }
 .carousel a {
   margin: 0 auto;
